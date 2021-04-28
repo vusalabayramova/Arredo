@@ -1,0 +1,592 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#header {
+  padding: 25px 0;
+  position: fixed;
+  width: 100%;
+}
+
+#header .left img {
+  width: 60%;
+}
+
+#header .right a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+#header .right a:nth-child(1) {
+  border-bottom: 2px solid #fff;
+}
+
+#header .right i {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+#phoneheader {
+  padding: 18px 0;
+  display: none;
+}
+
+#phoneheader i {
+  color: #939393;
+  font-size: 15px;
+}
+
+#phoneheader img {
+  width: 25%;
+}
+
+@media (max-width: 576px) {
+  #phoneheader {
+    display: block;
+  }
+  #phoneheader i {
+    margin-left: 70px;
+  }
+  #header {
+    display: none;
+  }
+}
+
+.first {
+  background-image: url(https://arredo.qodeinteractive.com/wp-content/uploads/2018/06/main-home-slide-2.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 14rem 0;
+}
+
+.first .all {
+  text-align: center;
+}
+
+.first .all h1 {
+  font-size: 75px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.first .all p {
+  font-size: 17px;
+  color: #fff;
+  line-height: 27px;
+  font-family: 'Poppins', sans-serif;
+  max-width: 523px;
+  min-width: 523px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.first .all a {
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-size: 14px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.first .all a:hover {
+  background-color: #101010ea;
+  border-color: #101010ea;
+}
+
+.second {
+  padding: 8rem 0 6rem;
+}
+
+.second .second-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.second .second-text h2 {
+  font-size: 32px;
+  color: #282828;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.second .second-text h4 {
+  font-size: 17px;
+  color: #737373;
+  font-family: 'Poppins', sans-serif;
+  line-height: 28px;
+  width: 600px;
+  margin: auto;
+}
+
+.second .all .box:hover .top a {
+  left: -28.5%;
+}
+
+.second .all .box:hover .top a:hover {
+  left: 0;
+}
+
+.second .all .box .top {
+  position: relative;
+  overflow: hidden;
+}
+
+.second .all .box .top img {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.second .all .box .top:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.second .all .box .top p {
+  color: #000000;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.second .all .box .top a {
+  text-decoration: none;
+  background-color: #000000;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 11px 0 11px 30px;
+  position: absolute;
+  bottom: 85px;
+  left: -50%;
+  z-index: 2;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.second .all .box .top a i {
+  padding: 0 20px;
+}
+
+.second .all .box .bottom {
+  padding: 35px 0 55px;
+}
+
+.second .all .box .bottom a {
+  font-size: 15px;
+  color: #282828;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.second .all .box .bottom span {
+  color: #282828;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.third {
+  background-image: url(https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h1-parallax-img-1.jpg);
+  padding: 8rem 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.third .all h2 {
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  line-height: 1.3em;
+  font-weight: bold;
+}
+
+.third .all h4 {
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  line-height: 28px;
+  margin: 18px 0 40px;
+}
+
+.third .all a {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 15px 30px 15px 30px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.third .all a:hover {
+  background-color: #282828;
+  border-color: #282828;
+}
+
+.fourth {
+  background-image: url(https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h1-parallax-img-2.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10rem 0;
+  background-attachment: fixed;
+}
+
+.fourth .all {
+  position: relative;
+}
+
+.fourth .all i {
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+  padding: 20px 20px 20px 25px;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.fourth .all i:hover {
+  background-color: #282828;
+  cursor: pointer;
+}
+
+.fifth {
+  padding: 8rem 0;
+}
+
+.fifth .top .left {
+  text-align: center;
+}
+
+.fifth .top .left h2 {
+  color: #282828;
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.fifth .top .left h4 {
+  font-size: 17px;
+  color: #737373;
+  font-family: 'Poppins', sans-serif;
+  margin: 18px 0 40px;
+}
+
+.fifth .top .left a {
+  color: #282828;
+  text-decoration: none;
+  border: 1px solid #282828;
+  padding: 15px 30px 15px 30px;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.fifth .top .left a:hover {
+  color: #fff;
+  background-color: #282828;
+  border-color: #282828;
+}
+
+.fifth .top .right {
+  background-color: #f7f5f5;
+  position: relative;
+  /* @keyframes photo{
+            0%{
+                margin-top: 9%;
+            }
+            25%{
+                margin-top: 12%;
+            }
+            50%{
+                margin-top: 15%;
+            }
+            75%{
+                margin-top: 12%;
+            }
+            100%{
+                margin-top: 9%;
+            }}*/
+}
+
+.fifth .top .right .img-1 {
+  margin: 9% 0 0 -22%;
+  -webkit-animation: photo 5s linear infinite;
+          animation: photo 5s linear infinite;
+}
+
+.fifth .top .right .img-2 {
+  height: 225.31px;
+  width: 254.7px;
+  position: absolute;
+  bottom: 0px;
+  right: -20%;
+  -webkit-animation: photo 5s linear infinite;
+          animation: photo 5s linear infinite;
+}
+
+.sixth {
+  background-color: #ecf2f8;
+  padding: 4.5rem 0;
+}
+
+.sixth h3 {
+  color: #282828;
+  font-size: 27px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.sixth a {
+  color: #282828;
+  border: 1px solid #282828;
+  font-size: 15px;
+  padding: 16px 35px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.sixth a:hover {
+  background-color: #282828;
+  color: #fff;
+}
+
+.seventh {
+  padding: 6rem 0 0;
+}
+
+.seventh .box p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #939393;
+}
+
+.seventh .box .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.seventh .box .header span {
+  color: #282828;
+  font-size: 19px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.seventh .box .header i {
+  font-size: 32px;
+  color: #282828;
+  margin-right: 20px;
+}
+
+.eighth {
+  padding: 6rem 0;
+}
+
+.eighth .left .box {
+  overflow: hidden;
+}
+
+.eighth .left .box img {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.eighth .left .box:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.eighth .left .box-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.eighth .left .box-text h3 {
+  font-size: 19px;
+  color: #282828;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 10px 0 16px;
+}
+
+.eighth .left .box-text .date a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #282828;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.eighth .left .box-text .date a:hover {
+  opacity: 0.7;
+}
+
+.eighth .left .box-text .date span {
+  color: #282828;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.eighth .left .box-text .readmore {
+  color: #282828;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid #282828;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.eighth .left .box-text .readmore:hover::before {
+  display: none;
+}
+
+.eighth .left .box-text .readmore::before {
+  content: "-";
+}
+
+#slider {
+  background-color: #ecf2f8;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#slider .head {
+  font-size: 70px;
+  color: #282828;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: -10px;
+}
+
+#slider p {
+  color: #737373;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#slider h3 {
+  font-size: 19px;
+  color: #282828;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+#slider h6 {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  color: #282828;
+}
+
+#logo {
+  padding: 4rem 0;
+}
+
+#logo img {
+  opacity: 0.2;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#logo img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#footer-1 {
+  padding: 8rem 0;
+  background-color: #282828;
+  border-bottom: 1px solid #939393;
+}
+
+#footer-1 h5 {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#footer-1 p {
+  color: #939393;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#footer-2 {
+  padding: 3rem 0;
+  background-color: #282828;
+}
+
+#footer-2 .left a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 30px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#footer-2 .left a:hover {
+  color: #939393;
+}
+
+#footer-2 .right p {
+  color: #BDBDBD;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+}
+
+#footer-2 .right p a {
+  text-decoration: none;
+  color: #939393;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */
